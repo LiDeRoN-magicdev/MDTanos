@@ -1,0 +1,17 @@
+name: MDTanos
+version: 1.0
+main: ru.magicdev.mdtanos.MDTanos
+api-version: 1.16
+author: MagicDev
+website: https://vk.com/majicdev
+depend:
+  - Citizens
+softdepend:
+  - DecentHolograms
+  - WorldGuard
+
+commands:
+  mtanos:
+    description: Основная команда плагина MDTanos
+    usage: /mtanos <give|giveall|mine|boss|addloot|reload>
+    permission: mtanos.admin

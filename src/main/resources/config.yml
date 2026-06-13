@@ -1,0 +1,22 @@
+settings:
+  # Можно ли вызвать босса, если предыдущий еще жив
+  allow-multiple-bosses: false
+
+timers:
+  mine-respawn-time: 300
+  boss-respawn-protection: 60
+  # Через сколько секунд босс исчезнет сам, если его не убили
+  boss-despawn-timeout: 600
+
+soul-stone-drop: #выпадения камня души с игрока
+  enabled: true
+  chance: 1.0  # шанс выпадения камня души с игрока
+
+stones:
+  - "power"
+  - "mind"
+  - "reality"
+  - "space"
+  - "soul"
+  - "time"
+  - "ego"

@@ -1,0 +1,70 @@
+bosses:
+  thanos:
+    world: "pvp1"
+    x: -126
+    y: 172
+    z: 275
+    auto-spawn:
+      enabled: false
+      interval-minutes: 60
+    display-name: "§x§E§7§0§0§F§F§lТ§x§D§2§0§0§F§F§lА§x§D§2§0§0§F§F§lН§x§D§2§0§0§F§F§lО§x§D§2§0§0§F§F§lС"
+    messages:
+      spawn: "§x§E§7§0§0§F§F§lТ§x§D§2§0§0§F§F§lА§x§D§2§0§0§F§F§lН§x§D§2§0§0§F§F§lО§x§D§2§0§0§F§F§lС &fвосстал"
+      death: "§x§E§7§0§0§F§F§lТ§x§D§2§0§0§F§F§lА§x§D§2§0§0§F§F§lН§x§D§2§0§0§F§F§lО§x§D§2§0§0§F§F§lС &fпал"
+    entity-type: IRON_GOLEM
+    health: 1000.0
+    damage: 25.0
+    bossbar-color: PURPLE
+    negative-effects:
+      - SLOWNESS:5:1
+      - BLINDNESS:3:0
+      - POISON:5:0
+    effect-interval-seconds: 10 #как часто босс дает эффекты игрокам
+    minions:
+      types:
+        - HOGLIN
+        - PIGLIN_BRUTE
+      amount: 3 #кол-во призыва приспешников за раз
+      health: 20.0
+      limit: 30 #Лимит приспешников
+      spawn-interval-seconds: 30 #Как часто босс призывает приспешников
+      spawn-on-low-hp: true #Начнет ли босс призвыать приспешников чаще, когда у него останется столько то хп
+      low-hp-threshold: 0.3 #Босс начнет призывать приспешников чаще, когда у него останется менее 30% здоровья.
+    loot:
+      - "DIAMOND:64:1.0"
+      - "NETHERITE_INGOT:1:0.5"
+
+  king:
+    world: "world"
+    x: -126
+    y: 172
+    z: 275
+    auto-spawn:
+      enabled: false
+      interval-minutes: 60
+    display-name: "§x§E§3§0§0§A§6§lА§x§F§F§0§0§8§6§lР§x§F§F§0§0§8§6§lХ§x§F§F§0§0§8§6§lО§x§F§F§0§0§8§6§lН§x§F§F§0§0§8§6§lТ"
+    messages:
+      spawn: "§x§E§3§0§0§A§6§lА§x§F§F§0§0§8§6§lР§x§F§F§0§0§8§6§lХ§x§F§F§0§0§8§6§lО§x§F§F§0§0§8§6§lН§x§F§F§0§0§8§6§lТ &fвосстал"
+      death: "§x§E§3§0§0§A§6§lА§x§F§F§0§0§8§6§lР§x§F§F§0§0§8§6§lХ§x§F§F§0§0§8§6§lО§x§F§F§0§0§8§6§lН§x§F§F§0§0§8§6§lТ&f пал"
+    entity-type: ZOMBIE
+    health: 1000.0
+    damage: 25.0
+    bossbar-color: PURPLE
+    negative-effects:
+      - SLOWNESS:5:1
+      - BLINDNESS:3:0
+      - POISON:5:0
+    effect-interval-seconds: 10
+    minions:
+      types:
+        - HOGLIN
+        - PIGLIN_BRUTE
+      amount: 3
+      health: 20.0
+      limit: 30
+      spawn-interval-seconds: 30
+      spawn-on-low-hp: true
+      low-hp-threshold: 0.3
+    loot:
+      - "DIRT:64:1.0"
+      - "NETHERITE_INGOT:1:0.5"

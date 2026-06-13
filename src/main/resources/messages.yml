@@ -1,0 +1,7 @@
+messages:
+  prefix: "&e[MDTanos] &f"
+  stone-given: "Вы получили камень: &6%type%"
+  loot-added: "&aПредмет успешно добавлен в лут босса &e%boss% &fс шансом &e%chance%&f."
+  invalid-chance: "&cОшибка: шанс должен быть числом от 0.0 до 1.0."
+  take-item-in-hand: "&cВозьмите предмет в руку, чтобы добавить его в лут!"
+  no-permission: "&cУ вас нет прав на использование этой команды."

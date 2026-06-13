@@ -1,0 +1,10 @@
+legendary-mine-name: "legendary" # Имя твоей шахты в AutoMine
+blocks:
+  RED_TERRACOTTA: # Блок, который нужно сломать
+    chance: 1.0   # 10% шанс
+    stone-id: "reality" # ID камня из altar.yml
+    found-message: "&aВы нашли редкий Камень Реальности!"
+  GOLD_BLOCK:
+    chance: 0.05
+    stone-id: "power"
+    found-message: "&aВы нашли редкий Камень Реальности!"
